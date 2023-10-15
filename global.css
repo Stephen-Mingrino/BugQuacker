@@ -17,6 +17,7 @@
 
 
 *{
+
     margin: 0;
     padding: 0;
 }
@@ -34,3 +35,4 @@ button{
 .card{
     background-image: linear-gradient(#211f2a, #030014);
 }
+

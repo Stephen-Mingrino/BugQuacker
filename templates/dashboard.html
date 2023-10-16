@@ -18,7 +18,7 @@
             </div>
             <div class="dashboard-header-right">
                 <!-- initials and logout icon -->
-                <button class="initials-icon">GJ</button>
+                <div class="initials-icon">GJ</div>
                 <button class="dashboard-logout-btn">
                     <img src="../assets/logout.png" alt="Logout Button" class="logout-icon">
                 </button>
@@ -39,8 +39,8 @@
                         <label for="members">Add members (optional). You can add members again later.</label>
                         <!-- initials icon and plus icon -->
                         <div class="dashboard-add-members-bar">
-                            <button class="highlighted-initials-icon">GJ</button>
-                            <button class="initials-icon">VN</button>
+                            <div  class="highlighted-initials-icon">GJ</div >
+                            <div  class="initials-icon">VN</div>
                             <button class="dashboard-form-add-member-btn">
                                 <img src="../assets/add.png" alt="Add Icon" class="add-member-icon">
                             </button>
@@ -67,8 +67,39 @@
             </div>
         </div>
     <!-- PROJECT LIST -->
-        <div>
-            
+        <div class="dashboard-project-list" id="allProjects">
+            <div class="dashboard-project-list-btn-container">
+                <button onclick="toggleProject()" class="dashboard-project-list-btn">
+                    <div class="dashboard-project-list-btn-element">
+                        <!-- arrow-icon -->
+                        <img src="../assets/arrow.png" alt="Arrow Icon" class="view-project-icon">
+                        Photo Vote
+                    </div>
+                    <div class="dashboard-project-list-btn-element">
+                        <!-- initials icon and plus icon -->
+                        <div class="highlighted-initials-icon">GJ</div>
+                        <div class="initials-icon">VN</div>
+                    </div>
+                    <div class="dashboard-project-list-btn-element">
+                        <div class="dashboard-form-add-member-btn">
+                            <img src="../assets/add.png" alt="Add Icon" class="add-member-icon">
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="dashboard-project-display" id="oneProjectDisplay">
+                <form action="">
+                    <p>Your Unresolved Tasks</p>
+                    <div class="dashboard-project-display-task">
+                        <input type="checkbox">
+                        <label for="taskId">Fix the border radius of the user cards in mobile.</label>
+                    </div>
+                    <div class="dashboard-project-display-task">
+                        <input type="checkbox">
+                        <label for="taskId">Work on the spacing of the New Project Card</label>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <script src="../app/script.js"></script>

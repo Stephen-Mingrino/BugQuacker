@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../global.css">
+    <title>Bug Quacker Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+    <!-- HEADER -->
+        <div class="dashboard-header">
+            <div class="dashboard-header-left">
+                <!-- bug-icon -->
+                <img src="../assets/bug.png" alt="Bug Logo" class="bug-icon">
+                <h1>Bug Quacker</h1>
+            </div>
+            <div class="dashboard-header-right">
+                <!-- initials and logout icon -->
+                <button class="initials-icon">GJ</button>
+                <button class="dashboard-logout-btn">
+                    <img src="../assets/logout.png" alt="Logout Button" class="logout-icon">
+                </button>
+            </div>
+        </div>
+    <!-- NEW PROJECT BUTTON + FORM -->
+        <div class="dashboard-new-project">
+            <div class="dashboard-new-project-btn-container">
+                <button onclick="toggleForm()" class="dashboard-new-project-btn">
+                    <!-- add-icon -->
+                    <img src="../assets/add.png" alt="Add Icon" class="add-project-icon">
+                    New Project
+                </button>
+            </div>
+            <div class="dashboard-form-container" id="newProjectForm">
+                <form action="" class="dashboard-form card " >
+                    <div class="dashboard-form-group">
+                        <label for="members">Add members (optional). You can add members again later.</label>
+                        <!-- initials icon and plus icon -->
+                        <div class="dashboard-add-members-bar">
+                            <button class="highlighted-initials-icon">GJ</button>
+                            <button class="initials-icon">VN</button>
+                            <button class="dashboard-form-add-member-btn">
+                                <img src="../assets/add.png" alt="Add Icon" class="add-member-icon">
+                            </button>
+                        </div>
+                        <input type="text" name="members" class="dashboard-form-input" 
+                        placeholder="Enter member's email" 
+                        required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" 
+                        oninvalid="this.setCustomValidity('Please enter a valid email address')" 
+                        oninput="this.setCustomValidity('')"> 
+                    </div>
+                    <div class="dashboard-form-group">
+                        <label for="projectName">Project Name: </label>
+                        <input type="text" name="projectName" class="dashboard-form-input" 
+                        placeholder="Bug Tracker" 
+                        required minlength="2" maxlength="20" 
+                        oninvalid="this.setCustomValidity('Please enter a project name between 2 and 20 characters')" 
+                        oninput="this.setCustomValidity('')"
+                        >
+                    </div>
+                    <div class="dashboard-create-btn-container">
+                        <button class="dashboard-form-create-btn">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <!-- PROJECT LIST -->
+        <div>
+            
+        </div>
+    </div>
+    <script src="../app/script.js"></script>
+</body>
+</html>

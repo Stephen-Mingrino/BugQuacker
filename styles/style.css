@@ -1,0 +1,185 @@
+/* ======= LANDING PAGE ======= */
+.landing-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+}
+.landing-body{
+    text-align: center;
+}
+.landing-header-left{
+    display: flex;
+}
+.landing-reg-log-btn{
+    border: 0.1vw solid #ff8600;
+    border-radius: 5vw;
+    width: 7vw;
+    padding: 0.5vw;
+    background-color: #030014;
+    color: white;
+    font-size: 1vw;
+}
+.landing-demo-btn{
+    border-radius: 5vw;
+    width: 10vw;
+    padding: 1vw;
+    font-size: 1vw;
+    background-color: #ff8600;
+}
+
+/* ======= DASHBOARD ======= */
+.dashboard-container{
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    padding: 1vw;
+}
+/* Header */
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+.dashboard-header-left{
+    display: flex;
+}
+.dashboard-header-right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 8vw;
+}
+.dashboard-logout-btn{
+    border-radius: 5vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0.1vw solid #c300ff;
+    background-color: #030014;
+}
+/* New Project */
+#newProjectForm{
+    display: none;
+}
+#newProjectForm.visible{
+    display: block;
+}
+.dashboard-new-project{
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border: 0.1vw solid #c300ff;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* new project button (toggle) */
+.dashboard-new-project-btn-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 45vw;
+}
+.dashboard-new-project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    width: 15vw;
+    color: white;
+    border-radius: 5vw;
+    background-image: linear-gradient(#211f2a, #030014);
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+/* new project create form */
+.dashboard-form{
+    padding: 1vw;
+}
+.dashboard-form-group{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    font-size: 1vw;
+    margin: 1.5vw;
+}
+.dashboard-add-members-bar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.5vw;
+}
+.dashboard-form-add-member-btn{
+    border-radius: 5vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0.1vw solid #c300ff;
+    background-color: #030014;
+}
+.dashboard-form-input{
+    border-radius: 0.5vw;
+    padding: 1vw;
+    background-color: #030014;
+    border: 0.1vw solid #c300ff;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    color: white;
+}
+/* new project create btn */
+.dashboard-create-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.dashboard-form-create-btn{
+    border: 0.1vw solid #c300ff;
+    border-radius: 5vw;
+    width: 7vw;
+    padding: 0.5vw;
+    background-color: #030014;
+    color: white;
+    font-size: 1vw;
+}
+
+/* ======= ICONS ======= */
+.bug-icon{
+    width: 3vw;
+}
+.add-project-icon{
+    width: 2vw;
+    height: 2vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+    border: 0.1vw solid #c300ff;
+    background-color: #030014;
+}
+.add-member-icon{
+    width: 1.75vw;
+    height: 1.75vw;
+    padding: 0.5vw;
+}
+.highlighted-initials-icon{
+    width: 3vw;
+    height: 3vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+    border: 0.1vw solid #c300ff;
+    font-size: 1vw;
+    background-color: #c300ff;
+    color: white;
+    margin-right: 0.5vw;
+}
+.initials-icon{
+    width: 3vw;
+    height: 3vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+    border: 0.1vw solid #c300ff;
+    font-size: 1vw;
+    background-color: #030014;
+    color: white;
+    margin-right: 0.5vw;
+}
+.logout-icon{
+    width: 1.75vw;
+    height: 1.75vw;
+    padding: 0.5vw;
+}

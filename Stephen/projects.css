@@ -1,0 +1,391 @@
+.wrapper {}
+
+.ProjPlaceholder {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+}
+
+::placeholder {
+    color: #ffff;
+}
+
+.Logout {
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+    padding: .40vw;
+
+}
+
+.logoutCont {
+    margin-top: 1vw;
+    display: flex;
+    position: relative;
+
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.photovote1 {
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 24.5vw;
+}
+
+.imgNoBorder {
+    box-sizing: border-box;
+    background-color: #211f2a;
+    text-align: center;
+    height: 2.5vw;
+    width: 2.5vw;
+    padding: .40vw;
+    border: solid .15vw;
+    border-color: #211f2a;
+    border-radius: 50%;
+
+}
+
+.photovote2 {
+    display: flex;
+    margin-top: -2vw;
+
+    margin-left: 24.5vw;
+}
+
+.projinput1 {
+    display: flex;
+
+    background-color: #211f2a;
+    height: 3vw;
+    width: 15vw;
+    margin-top: 3vw;
+}
+
+.projbtn {
+    margin-top: -3vw;
+    background-color: #030014;
+    font-size: 1.4vw;
+    height: 3vw;
+    margin-top: 3vw;
+    border-radius: 12px;
+    border-width: 3vw;
+    border: solid;
+    border-color: #ff8600;
+    color: #ffff;
+    width: 7vw;
+}
+
+.teamCard {
+
+    margin-top: 3vw;
+    margin-left: 24.5vw;
+    width: 25vw;
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border-top: 0.2vw solid grey;
+    border-left: 0.2vw solid grey;
+    ;
+    border-bottom: 0.2vw solid #211f2a;
+    border-right: 0.2vw solid #211f2a;
+    padding: 2vw;
+}
+
+.teamCardFlex {
+    display: flex;
+}
+
+
+.add {
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+    padding: .40vw;
+
+}
+
+.ProjPlaceholder2 {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+}
+
+.placemargin {
+    margin-left: 3vw;
+}
+
+.teamCard2 {
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 24.5vw;
+    width: 17vw;
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border-top: 0.2vw solid grey;
+    border-left: 0.2vw solid grey;
+    ;
+    border-bottom: 0.2vw solid #211f2a;
+    border-right: 0.2vw solid #211f2a;
+    padding: 2vw;
+}
+
+.ProjPlaceholder3 {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.pmarg {
+    margin-bottom: 1vw;
+}
+
+.placemargin2 {
+    margin-right: 3vw;
+}
+
+.ProjPlaceholder4 {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.teamCard3 {
+
+    margin-top: 3vw;
+    margin-left: 24.5vw;
+    width: 47vw;
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border-top: 0.2vw solid grey;
+    border-left: 0.2vw solid grey;
+    ;
+    border-bottom: 0.2vw solid #211f2a;
+    border-right: 0.2vw solid #211f2a;
+    padding: 2vw;
+}
+
+.teamCard3top {
+    display: flex;
+}
+
+.newTask {
+    display: none
+}
+
+.newTask.visible {
+    display: block;
+}
+
+.h2marg {
+    margin-left: 2vw;
+}
+
+.p1 {
+    margin-left: 6vw;
+    margin-top: 3vw;
+}
+
+.teamBox {
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+
+textarea {
+    background-color: #211f2a;
+    margin-top: 1vw;
+    margin-left: 6vw;
+    color: #ffff;
+    border-color: #ff8600;
+}
+
+.projbtn2 {
+    justify-content: left;
+    margin-top: -3vw;
+    background-color: #030014;
+    font-size: 1.4vw;
+    height: 3vw;
+    margin-top: 3vw;
+    border-radius: 12px;
+    border-width: 3vw;
+    border: solid;
+    border-color: #ff8600;
+    color: #ffff;
+    width: 7vw;
+    margin-left: 35vw;
+
+}
+
+.ProjPlaceholderHighlight {
+    background-color: #ff8600;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.marg {
+    margin-left: .5vw;
+}
+
+.marg2 {
+    margin-left: 1vw;
+}
+
+.teamCard4 {
+    display: flex inline-block;
+    margin-top: 3vw;
+    margin-left: 24.5vw;
+    width: 60vw;
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border-top: 0.2vw solid grey;
+    border-left: 0.2vw solid grey;
+    ;
+    border-bottom: 0.2vw solid #211f2a;
+    border-right: 0.2vw solid #211f2a;
+    padding: 2vw;
+}
+
+.checkFlex {
+    display: inline-block;
+}
+
+.check {
+
+
+    background-color: #030014 !important;
+    accent-color: #ff8600;
+    color: #030014;
+}
+
+.p4 {
+    text-decoration: line-through;
+    color: #9c9c9c;
+}
+
+.checkflex1 {
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 10vw;
+}
+
+.Box {
+    background-color: #030014;
+    border: .1vw solid #ff8600;
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 0.2vw;
+
+}
+
+.p2 {
+    margin-left: 1vw;
+}
+
+.p3 {
+    color: #9c9c9c;
+    margin-left: 12.5vw;
+    display: flex;
+}
+
+.Box2 {
+    background-color: #ff8600;
+    border: .1vw solid #ff8600;
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 0.2vw;
+    display: flex;
+
+}
+
+.pflex {
+    display: flex;
+}
+
+.ProjPlaceholder5 {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff8600;
+    border-radius: 50%;
+    text-align: center;
+    height: 1.5vw;
+    width: 1.5vw;
+    font-size: .5vw;
+
+}
+
+.marg3 {
+    margin-left: 1vw;
+}
+
+.ProjPlaceholder6 {
+
+    background-color: #030014;
+    color: #ffff;
+    outline: 0;
+    box-sizing: border-box;
+    border: solid .15vw;
+    border-color: #ff88008e;
+    border-radius: 50%;
+    text-align: center;
+    height: 1.5vw;
+    width: 1.5vw;
+    font-size: .5vw;
+
+}

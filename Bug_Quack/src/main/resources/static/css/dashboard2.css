@@ -1,0 +1,265 @@
+:root {
+  --colorTheme: #030014;
+}
+
+.colorPalette{
+	position: absolute;
+   	left: 50%; 
+  	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	gap:0.5vw;
+}
+.colorPalette div{
+	width: 3vw;
+	height: 3vw;
+	border-radius: 0.5vw; 
+	border: 0.15vw solid #211f2a;
+	cursor:pointer;
+	transition: .25s;
+}
+.colorPalette div:hover{
+	transform:scale(1.1)
+}
+.orange{
+	background-color: #ff8600;
+	opacity: 50%;
+}
+.yellow{
+	background-color:#ffc41b;
+	opacity: 50%;
+}
+.blue{
+	background-color:#00a4ed;
+	opacity: 50%;
+}
+.purple{
+	background-color:#c300ff;
+	opacity: 50%;
+}
+
+
+/* ======= DASHBOARD ======= */
+.dashboard-container{
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    padding: 1vw;
+}
+
+/* === Header === */
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+.dashboard-header-left{
+    display: flex;
+}
+.dashboard-header-right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 8vw;
+}
+.dashboard-logout-btn{
+    border-radius: 5vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0.1vw solid var(--colorTheme);
+    background-color: #030014;
+}
+
+/* === New Project === */
+#newProjectForm{
+    display: none;
+}
+#newProjectForm.visible{
+    display: block;
+}
+.dashboard-new-project{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* new project button (toggle) */
+.dashboard-new-project-btn-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.dashboard-new-project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    width: 15vw;
+    color: white;
+    border-radius: 5vw;
+    background-image: linear-gradient(#211f2a, #030014);
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+/* new project create form */
+.dashboard-form{
+    padding: 1vw;
+    border: 0.1vw solid var(--colorTheme);
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    padding: 2vw;
+}
+.dashboard-form-group{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    font-size: 1vw;
+    margin: 1.5vw;
+}
+.dashboard-add-members-bar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.5vw;
+}
+.dashboard-form-add-member-btn{
+    border-radius: 5vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0.1vw solid var(--colorTheme);
+    background-color: #030014;
+}
+.dashboard-form-input{
+    border-radius: 0.5vw;
+    padding: 1vw;
+    background-color: #030014;
+    border: 0.1vw solid var(--colorTheme);
+    font-size: 1vw;
+    color: white;
+}
+/* new project create btn */
+.dashboard-create-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.dashboard-form-create-btn{
+    border: 0.1vw solid var(--colorTheme);
+    border-radius: 5vw;
+    width: 7vw;
+    padding: 0.5vw;
+    background-color: #030014;
+    color: white;
+    font-size: 1vw;
+}
+
+/* === Project List === */
+.dashboard-project-list-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    width: 50vw;
+    color: white;
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    background-image: linear-gradient(#211f2a, #030014);
+    padding: 1vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+.dashboard-project-list-btn-element{
+    display: flex;
+    align-items: center;
+}
+
+/* === Display One Project === */
+#oneProjectDisplay{
+    display: none;
+}
+#oneProjectDisplay.visible{
+    display: block;
+}
+.dashboard-project-display{
+    border-radius: 2vw;
+    border-bottom-right-radius: 5vw;
+    border: 0.1vw solid var(--colorTheme);
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25vw;
+}
+.dashboard-project-display-task{
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0.1vw solid var(--colorTheme);
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+input[type="checkbox"]:checked{
+    background-image: url('/assets/check.png');
+    background-size: 1.75vw;
+}
+
+/* ======= ICONS ======= */
+.bug-icon{
+    width: 3vw;
+}
+.add-project-icon{
+    width: 2vw;
+    height: 2vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+    border: 0.1vw solid var(--colorTheme);
+    background-color: #030014;
+}
+.add-member-icon{
+    width: 1.75vw;
+    height: 1.75vw;
+    padding: 0.5vw;
+}
+.highlighted-initials-icon{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 5vw;
+    font-size: 1vw;
+    background-color: var(--colorTheme);
+    color: white;
+    margin-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.initials-icon{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 5vw;
+    border: 0.1vw solid var(--colorTheme);
+    font-size: 1vw;
+    background-color: #030014;
+    color: white;
+    margin-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout-icon{
+    width: 1.75vw;
+    height: 1.75vw;
+    padding: 0.5vw;
+}
+.view-project-icon{
+    width: 2vw;
+    height: 2vw;
+    padding: 0.5vw;
+    border-radius: 5vw;
+    border: 0.1vw solid var(--colorTheme);
+    background-color: #030014;
+    margin-right: 0.5vw;
+}

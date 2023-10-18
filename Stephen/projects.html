@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>Document</title>
+</head>
+<body class="wrapper" >
+    <div class="projectContainer"> 
+        <div >
+            <div class="bugcont">
+                <img class="bug" src="assets/bug.png">
+                <h2>Bug Quack</h2>
+            </div>
+        </div>    
+        <div class="logoutCont" >
+            <input class="ProjPlaceholder" placeholder="SM">
+            <img  class="Logout" src="assets/logout.png" alt="">
+        </div>
+    </div>
+    <div class="photovote1">
+        <h1>Photo Vote</h1>
+        <div>
+            <img class="imgNoBorder" src="assets/edit.png" alt="">
+            <img class="imgNoBorder" src="assets/delete.png" alt="">
+        </div>
+    </div>
+    <div class="photovote2">
+        <input class="projinput1" type="text">
+        <button class="projbtn marg">Save</button>
+        <button class="projbtn marg">Cancel</button>     
+    </div>
+    <div class="card teamCard" >
+        <p class="pmarg">Last updated Oct. 16th random time</p>
+        <div class="teamCardFlex">
+            <h2>Team</h2>
+                <input class="ProjPlaceholder2 placemargin " placeholder="SM">
+                <input class="ProjPlaceholder2 marg" placeholder="GJ">
+                <input class="ProjPlaceholder2 marg" placeholder="VN">
+                <img  class="add marg" src="assets/add.png" alt="">    
+        </div>
+    </div>    
+        <!-- <div class="card teamCard2">
+            <img class="ProjPlaceholder3 placemargin2 add" src="assets/add.png" alt="">
+            <h2>New Task</h2>
+        </div> -->
+        <div class="card teamCard3">
+            <div  class="teamCard3top">
+                <button class="ProjPlaceholder4" onclick="toggleForm()" >
+                <img class="placemargin2 add" src="assets/add.png" alt="">
+                </button>
+                <h2 class="h2marg">New Task</h2>
+            </div>
+            <div class="newTask" id="newTask">
+                <p class="p1">Members highlighted will be assigned new task</p>
+                <div class="teamCardFlex teamBox">
+                    <input class="ProjPlaceholderHighlight placemargin " placeholder="SM"><br>
+                    <input class="ProjPlaceholder2 marg2 " placeholder="GJ">
+                    <input class="ProjPlaceholder2 marg2" placeholder="VN"><br>
+                    <img  class="add marg2" src="assets/add.png" alt="">    
+                </div>
+                <p class="p1">Instructions:</p>
+                <form>
+                    <textarea name="" id="" cols="55" rows="13"></textarea>
+                    <button class="projbtn2">Assign</button>
+                </form>
+            </div>
+        </div>
+        <div class="teamCard4 card">
+            <div class="h2task">
+                <h2>Your Tasks</h2>
+            </div>
+            <div class="checkFlex">
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box"></div><p class="p2">This is going to be a non resolved checkbox</p>
+                        </div>
+                    <p class="p3">created by Stephen at 6:49 eastern time</p>
+                </div>
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box"></div><p class="p2">This is going to be a non resolved checkbox</p>
+                    </div>
+                    </div>
+                    <p class="p3">created by Stephen at 6:49 eastern time</p>
+                </div>
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box2"></div><p class="p2 p4">This is going to be a non resolved checkbox</p>
+                        </div>
+                    </div>
+                    <p class="p3">created by Stephen at 6:49 eastern time</p>
+                </div>
+            </div>
+        </div>
+        <div class="teamCard4 card">
+            <div class="h2task">
+                <h2>Team Tasks</h2>
+            </div>
+            <div class="checkFlex">
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box"></div><p class="p2">This is going to be a non resolved checkbox</p> 
+                        </div>
+                        <div class="pflex">
+                            <p class="p3">created by Stephen at 6:49 eastern time</p>  
+                            <input class="ProjPlaceholder5 marg3 " placeholder="SM">
+                            <input class="ProjPlaceholder5 marg" placeholder="GJ">
+                        </div>
+                </div>
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box"></div><p class="p2">This is going to be a non resolved checkbox</p> 
+                        </div>
+                        <div class="pflex">
+                            <p class="p3">created by Stephen at 6:49 eastern time</p>  
+                    
+                            <input class="ProjPlaceholder5 marg" placeholder="GJ">
+                        </div>
+                </div>
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box"></div><p class="p2">This is going to be a non resolved checkbox</p> 
+                        </div>
+                        <div class="pflex">
+                            <p class="p3">created by Stephen at 6:49 eastern time</p>  
+                            <input class="ProjPlaceholder5 marg3 " placeholder="SM">
+                            <input class="ProjPlaceholder5 marg" placeholder="GJ">
+                            <input class="ProjPlaceholder5 marg" placeholder="VN">
+                        </div>
+                </div>
+                <div>
+                    <div class="checkflex1">
+                        <div class="Box2"></div><p class="p2 p4">This is going to be a non resolved checkbox</p>
+                        </div>
+                    <div class="pflex">
+                        <p class="p3">created by Stephen at 6:49 eastern time</p>
+                        <input class="ProjPlaceholder6 marg3 " placeholder="SM">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="projects.js"></script>
+        
+        
+
+  
+</body>
+</html>

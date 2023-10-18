@@ -1,0 +1,37 @@
+.bug-icon{
+    width: 3vw;
+}
+.landing-container{
+    align-items: center;
+    width: 75vw;
+    margin: auto;
+    padding: 1vw;
+}
+.landing-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+}
+.landing-body{
+    text-align: center;
+}
+.landing-header-left{
+    display: flex;
+}
+.landing-reg-log-btn{
+    border: 0.1vw solid #ff8600;
+    border-radius: 5vw;
+    width: 7vw;
+    padding: 0.5vw;
+    background-color: #030014;
+    color: white;
+    font-size: 1vw;
+}
+.landing-demo-btn{
+    border-radius: 5vw;
+    width: 10vw;
+    padding: 1vw;
+    font-size: 1vw;
+    background-color: #ff8600;
+}
